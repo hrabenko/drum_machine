@@ -1,0 +1,44 @@
+body {
+    background-color: #F59EB3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 170px auto;
+}
+
+#display {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#drum-pads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.drum-pad {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.drum-pad:active {
+    background-color: rgba(245, 158, 179, 0.5);
+    box-shadow: 2px 2px black;
+}
