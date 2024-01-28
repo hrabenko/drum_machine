@@ -1,6 +1,9 @@
 body {
     background-color: #F59EB3;
     font-family: 'Roboto', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .App {
@@ -11,7 +14,7 @@ body {
     width: 400px;
     height: 400px;
     border-radius: 15px;
-    margin: 170px auto;
+    margin-top: 100px;
 }
 
 #display {
